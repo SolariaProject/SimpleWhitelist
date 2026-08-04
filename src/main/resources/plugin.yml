@@ -1,0 +1,12 @@
+name: SimpleWhitelist
+version: '${version}'
+
+main: solaria.simplewhitelist.Main
+api-version: '26.1.2'
+load: POSTWORLD
+depend: [ LuckPerms ]
+commands:
+  swl:
+    description: Gerenciador de whitelist do plugin SimpleWhitelist
+    permission: simplewhitelist.admin
+    usage: /swl <argumentos...>
