@@ -15,7 +15,13 @@
         <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/SolariaProject/SimpleWhitelist</url>
+        </repository>
+    </distributionManagement>
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
