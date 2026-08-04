@@ -57,12 +57,21 @@ O **SimpleWhitelist** disponibiliza uma API interna para integração local entr
 Para utilizar a API em outro plugin, adicione o JAR ao seu classpath ou adicione como dependência local no `pom.xml`:
 
 ```xml
+<repositories>
+    <repository>
+        <id>github-solariaproject</id>
+        <url>https://maven.pkg.github.com/SolariaProject/SimpleWhitelist</url>
+    </repository>
+</repositories>
+
+<dependencies>
 <dependency>
     <groupId>solaria.simplewhitelist</groupId>
     <artifactId>simplewhitelist</artifactId>
     <version>1.0</version>
     <scope>provided</scope>
 </dependency>
+</dependencies>
 
 ```
 
