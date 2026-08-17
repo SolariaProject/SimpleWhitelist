@@ -6,7 +6,7 @@
 
     <groupId>solaria.simplewhitelist</groupId>
     <artifactId>simplewhitelist</artifactId>
-    <version>1.0</version>
+    <version>26.2-2.0.0</version>
     <packaging>jar</packaging>
 
     <name>simplewhitelist</name>
@@ -73,7 +73,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>26.1.2.build.74-stable</version>
+            <version>26.2.build.112-stable</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

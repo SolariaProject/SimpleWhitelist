@@ -65,12 +65,12 @@ Para utilizar a API em outro plugin, adicione o JAR ao seu classpath ou adicione
 </repositories>
 
 <dependencies>
-<dependency>
-    <groupId>solaria.simplewhitelist</groupId>
-    <artifactId>simplewhitelist</artifactId>
-    <version>1.0</version>
-    <scope>provided</scope>
-</dependency>
+    <dependency>
+        <groupId>solaria.simplewhitelist</groupId>
+        <artifactId>simplewhitelist</artifactId>
+        <version>1.0</version>
+        <scope>provided</scope>
+    </dependency>
 </dependencies>
 
 ```
